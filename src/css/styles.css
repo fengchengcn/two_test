@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Common Controls Section Style */
+.controls {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fdfdfd;
+}
+
+/* Common Input Group Style */
+.input-group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group label {
+  min-width: 80px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.input-group input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80px;
+}
+
+/* Tab Navigation Styles */
+.tab-navigation {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  display: flex;
+  gap: 10px;
+}
+
+.tab-navigation button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  font-size: 1em;
+  color: #555;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tab-navigation button.active {
+  background-color: #fff;
+  border-color: #ccc;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  top: 1px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.tab-navigation button:hover:not(.active) {
+  background-color: #e9e9e9;
+}
+
+.tab-content {
+    padding-top: 20px;
+} 
